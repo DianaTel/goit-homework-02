@@ -6,7 +6,7 @@
  --secondary-text-color-dark: #2E2F42;
  --secondary-text-color-light: #F4F4FD;
  --accent-color: #4D5AE5;
- --accent-color-two: #4D5AE5;
+ --accent-color-two: #404BBF;
 }
 
 body {
@@ -69,7 +69,7 @@ cursor: pointer;
 .features-list,
 .works-list,
 .team-list,
-.btn-list ,
+.btn-list,
 .gallery-list {
     list-style: none;
 }
@@ -147,4 +147,34 @@ list-style: none;
 .nav-link:focus {
 background-color: var(--accent-color-two);
  }
+
+ .btn-nav {
+    font-size: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-color-two);
+    background-color: var(--secondary-text-color-light);
+ }
+ .btn-nav:hover,
+.btn-nav:focus {
+color: var(--primary-text-color-light);
+background-color: var(--accent-color-two);
+cursor: pointer;
+}
 /* gallery */
+.gallery-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-dark);
+}
+.gallery-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-dark);
+}
