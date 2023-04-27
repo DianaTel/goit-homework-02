@@ -56,13 +56,14 @@ body {
 /* footer */
 .section-adrress {
     background-color: var(--secondary-text-color-dark);
-
 }
 
 .logo-white {
     color: var(--secondary-text-color-light);
 }
-
+.footer-text {
+    background-color: var(--primary-text-color-light);
+}
 /* index.html */
 /* hero */
 .hero {
