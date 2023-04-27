@@ -95,14 +95,6 @@ body {
 }
 
 /* features */
-.features-list,
-.works-list,
-.team-list,
-.btn-list,
-.gallery-list {
-    list-style: none;
-}
-
 .features-text {
     font-size: 16px;
     line-height: 1.5;
@@ -162,7 +154,7 @@ body {
     color: var(--primary-text-color-dark);
 }
 
-.team-list {
+.team-list-elem {
     background-color: var(--primary-text-color-light);
 }
 
